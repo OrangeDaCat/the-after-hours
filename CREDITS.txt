@@ -1,0 +1,128 @@
+THE AFTER-HOURS  //  CREDITS
+==============================
+
+The After-Hours is an unofficial, modified version of "The Backrooms"
+(godot-backrooms), a first-person co-op horror game by MehdiBen2:
+    https://github.com/MehdiBen2/godot-backrooms
+
+All original work, design, code and content belong to its author. This project is
+not affiliated with or endorsed by them. Changes in this version by OrangeDaCat.
+
+Engine: Godot Engine, https://godotengine.org (MIT licence;
+Copyright (c) Juan Linietsky, Ariel Manzur and Godot Engine contributors).
+
+Third-party assets used by the game are credited below, as listed in the
+original project's asset credit files.
+
+
+==== AUDIO ====
+
+Recorded sounds in this folder, made with .claude/skills/claude-opus-layer (opus-sound-layer). All CC0:
+credit is not required, but given. Outdoor footsteps and ambience: footsteps/CREDITS.txt.
+
+- items/pickups/battery_pickup_1..4.wav  into the backpack: a hand swish, the bag, a quiet zip (cue sheets: .claude/skills/claude-opus-layer/cues/battery_pickup_N.json)
+    "28.wav" by adcbicycle, CC0, https://freesound.org/people/adcbicycle/sounds/14176
+    "Woosh 2.mp3" by XxChr0nosxX, CC0, https://freesound.org/people/XxChr0nosxX/sounds/268226
+    "Wrapping cloth" by ChuckleNutsDev, CC0, https://freesound.org/people/ChuckleNutsDev/sounds/718668
+    "Zipper.aif" by Tee_Hee_Tummy_Tums, CC0, https://freesound.org/people/Tee_Hee_Tummy_Tums/sounds/263039
+    "a variety of zipper sounds" by florianreichelt, CC0, https://freesound.org/people/florianreichelt/sounds/447448
+    "Zipper Regular Pull 01" by Rudmer_Rotteveel, CC0, https://freesound.org/people/Rudmer_Rotteveel/sounds/536234
+    "Put in bag and zip up.mp3" by Caitlin_100, CC0, https://freesound.org/people/Caitlin_100/sounds/365619
+    "Inventory Open" by Fission9, CC0, https://freesound.org/people/Fission9/sounds/568992
+    "zipping backpack and rustling papers.wav" by TheSupremeMuffinPooter, CC0, https://freesound.org/people/TheSupremeMuffinPooter/sounds/333519
+
+- items/torch/battery_dead.wav  the bulb sputtering out; battery_dead_click_1..3.wav  the switch on an empty torch (cues/torch/)
+    "Flashlight Switch" by Daybreaker64, CC0, https://freesound.org/people/Daybreaker64/sounds/545248
+    "flashlight click" by realgtro, CC0, https://freesound.org/people/realgtro/sounds/629008
+    "Flashlight clicking sounds" by wiiinviiid, CC0, https://freesound.org/people/wiiinviiid/sounds/718128
+    "fluorescent light flickering 1.wav" by TemperMode, CC0, https://freesound.org/people/TemperMode/sounds/484157
+    "flourescent light" by samwd, CC0, https://freesound.org/people/samwd/sounds/457438
+
+- footsteps/tile/tile_0..9.ogg  steps cut from
+    "Footsteps, Tile, Male Tennis Shoes, Slow Pace.wav" by SpliceSound, CC0, https://freesound.org/people/SpliceSound/sounds/170498
+    "Footsteps, Tile, Male Sneakers, Slow Pace.wav" by SpliceSound, CC0, https://freesound.org/people/SpliceSound/sounds/170506
+    "01-20 Footsteps, Tile, Slippers, Slow Pace.wav" by SpliceSound, CC0, https://freesound.org/people/SpliceSound/sounds/260120
+
+- footsteps/concrete/concrete_0..9.ogg  steps cut from
+    "Footsteps Salted Concrete.WAV" by saturdaysoundguy, CC0, https://freesound.org/people/saturdaysoundguy/sounds/388025
+    "Walking on Hard Floor 2" by NachtmahrTV, CC0, https://freesound.org/people/NachtmahrTV/sounds/571802
+    "footsteps concrete" by Yuval, CC0, https://freesound.org/people/Yuval/sounds/205748
+    "mco_walk_b02.wav" by Fantozzi, CC0, https://freesound.org/people/Fantozzi/sounds/166290
+
+
+
+==== OUTDOOR FOOTSTEPS AND AMBIENCE ====
+
+Outdoor footsteps and ambience (all from opengameart.org):
+- grass/*.ogg   "Footsteps on different surfaces" pack, derived from "footstep-grass.wav" by swuing
+                (https://freesound.org/people/swuing/sounds/38874/), CC BY 3.0 - https://creativecommons.org/licenses/by/3.0/
+- dirt/gravel_*.ogg  from "Gravel Footsteps" by Ali_6868 (https://freesound.org/people/Ali_6868/packs/21608/), CC0
+- dirt/sand_*.ogg    "Fantozzi's Footsteps (Grass/Sand & Stone)", CC0
+- ../ambients/outdoor/forest_day.mp3      "Forest Ambience" by TinyWorlds, CC0
+- ../ambients/outdoor/crickets_night.mp3  "Crickets Ambient Noise - loopable" by Ted Kerr, CC0
+- ../ambients/outdoor/wind_loop.wav       synthesized (tools/make_wind.py)
+
+
+
+==== MODELS ====
+
+Third-party models (see also textures/CREDITS.txt)
+
+props/tsra/tsra_emergency_panel.glb
+  "Emergency Panel with Lever" by Da-Luna
+  https://sketchfab.com/3d-models/emergency-panel-with-lever-cdbf3b958e68458f8579d089f02db2dc
+  License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  Modified: retextured by tools/make_tsra_branding.py ("ONLY USE IN AN EMERGENCY" replaced by "T.S.R.A.",
+  the screen's "Helix Protection System" replaced by the T.S.R.A. emblem).
+
+props/tsra/tsra_sign.glb, tsra_console.glb, tsra_gate.glb (the gate's base: platform, coils, orbit ring)
+  Made for this game (tools/blender/build_tsra_*.py).
+
+props/tsra/tsra_portal_frame.glb
+  "Futuristic Cyberpunk Portal Frame" by fdehell
+  https://sketchfab.com/3d-models/futuristic-cyberpunk-portal-frame-1937ec8c5ab14a13a09a3cfa9877fa3c
+  License: CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+  Modified: decimated to about a tenth, scaled up 2.25x, collision added (tools/blender/build_tsra_portal_frame.py).
+
+
+
+==== TEXTURES ====
+
+Textures and models under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/):
+
+- pbr/Ceiling_Drop_*/, pbr/Carpet_Yellow_Green/, pbr/Wallpaper_Yellow_* (ceilings, carpet, wallpapers; were YBR_*)
+      "Yasu's Backrooms Material Pack" v1.0 by @mvyasu, CC BY 4.0.
+      Scaled from 4096 to 2048 px and regrouped one material a folder; the ceiling materials pair each tile set
+      with its light panel set (Backrooms_Ceiling_01 + 03 = Ceiling_Drop_Square, 02 + 04 = Ceiling_Drop_Long).
+      The old names of every renamed material are listed in pbr/RENAMES.txt.
+
+- ../models/ceiling/backrooms_blender_kit.glb (the air vents on the drop ceilings)
+      "Backrooms Blender Kit" by Huuxloc (https://sketchfab.com/rjh41),
+      https://sketchfab.com/3d-models/backrooms-blender-kit-89fad66d968e44aabedf65ac5a06f877, CC BY 4.0.
+      Only the vent meshes are used, relit with the game's own materials.
+
+Models under the Sketchfab Standard licence (https://sketchfab.com/licenses):
+
+- ../models/props/wall_socket/light_switch_and_wall_socket.glb (the wall outlets and light switches)
+      "Light Switch And Wall Socket" by Theocritus (https://sketchfab.com/Theocritus),
+      https://sketchfab.com/3d-models/light-switch-and-wall-socket-4aa182aae23c4f85a1568e9101b2b9c5.
+      Taken apart into the socket and the switch, placed on the walls by scripts/World/level/level_trim.gd.
+
+Supplied with the project (asetsuimprot/), source and licence to be confirmed:
+
+- damp_atlas.jpg (the water damage down the walls, scripts/World/level/level_trim.gd _build_damp)
+      Made from "grungy-stained-concrete-wall-texture.jpg", "grungy-stained-concrete-wall-texture (1).jpg" and
+      "grungy-weathered-concrete-wall-texture.jpg": each turned into a multiply map (clean plaster white),
+      2048 x 1365, stacked in one picture.
+
+Textures under CC0 (https://creativecommons.org/publicdomain/zero/1.0/):
+
+- lens_dirt_1.png .. lens_dirt_6.png (the camera's lens dirt, one picked at random each session: scripts/UI/hud/hud.gd)
+      "Lens dirt texture Pack" by zisongbr, OpenGameArt (https://opengameart.org/content/lens-dirt-texture-pack-1png
+      .. -9png), CC0. Pack files 1, 2, 3, 6, 7 and 8 became lens_dirt_1 .. 6: scaled from 3870 x 2177 to
+      2560 x 1440, and the dark ones (3, 6, 7) brightened (x1.35, x3.3, x3.65) so they read through
+      camera.gdshader's dirt threshold like lens_dirt.png does.
+
+Textures under CC0 (ambientCG, https://ambientcg.com), supplied in asetsuimprot/texturesnew/, regrouped into pbr/ (old ids in pbr/RENAMES.txt):
+- pbr/Asphalt_Worn_Patched, Brick_Weathered_Wall, Carpet_Patterned, Metal_Corrugated_Steel, Fabric_Woven, Paving_Stones_A/B, Road_Lines_A/B, Tile_Set_012/079/134A
+- pbr/Concrete_Grey_034 (Concrete034), pbr/Ceiling_Office_Lit (OfficeCeiling002: office drop ceiling with its light panels in the emission map), ambientCG CC0
